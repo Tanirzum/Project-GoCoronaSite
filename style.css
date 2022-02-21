@@ -1,0 +1,225 @@
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input::-ms-clear{display:none;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+:focus,:active{outline:none;}
+ul li{list-style:none;}
+
+body{
+	background: #FAFBFD;
+}
+.header{
+	font-family: Raleway;
+	width: 1049px;
+	margin: 0 auto;
+}
+.header-content{
+	display: flex;
+	justify-content: space-between;
+}
+.header-logo{
+	padding: 50px 0 0 0;
+}
+.header-list{
+	font-weight: bold;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 0.14em;
+}
+.link-text{
+	color: black;
+}
+.header-link{
+	display: flex;
+	padding: 65px 0 0 0;
+}
+.header-link li{
+	padding: 0 40px 0 0 ;
+}
+.button{
+	width: 130px;
+	height: 40px;	background: #4285F4;
+	border-radius: 5px;
+}
+.button-blue{
+	margin: 50px 0 0 0;
+}
+.button-link{
+	display: inline-block;
+	padding: 12px 29px 16px 31px;
+	font-weight: 800;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 0.14em;
+	color: #FCFDFE;
+}
+
+/* main */
+.main{
+	width: 1049px;
+	height: 700px;
+	margin: 0 auto;
+}
+.main-content{
+	display: flex;
+	justify-content: space-between;
+}
+.main-content-text{
+	margin: 150px 0;
+	width: 400px;
+}
+.main-content-text h1{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 126%;
+	color: #000000;
+}
+.main-content-text span{
+	color: #4285F4;
+}
+.main-text{
+	font-family: Rubik;
+	font-size: 12px;
+	line-height: 138.5%;
+	letter-spacing: 0.08em;
+	color: #616161;
+	padding: 15px 0 25px 0;
+}
+.button-red{
+	background: #EC5863;
+}
+.button-link-red{
+	padding: 14px 28px 14px 20px;
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 10px;
+	line-height: 12px;
+	letter-spacing: 0.14em;
+	color: #FCFDFE;
+}
+.main-content-play{
+	margin: 120px 0 0 0;
+}
+.play-text-01{
+	margin: -38px 0 0 60px;
+	font-family: Rubik;
+	font-size: 13px;
+	line-height: 126%;
+	letter-spacing: 0.08em;	
+	color: #B0B0B0;
+}
+.play-text-02{
+	margin: 5px 0 0 60px;
+	font-family: Rubik;
+	font-size: 9px;
+	line-height: 126%;
+	letter-spacing: 0.165em;
+	text-transform: uppercase;	
+	color: #000000;
+}
+.main-content-image{
+	margin: 100px 0 0 0;
+}
+
+/* section */
+.section{
+	width: 1049px;
+	height: 700px;
+	margin: 0 auto;
+}
+.section-content{
+	display: flex;
+	justify-content: space-around;
+}
+.main-content-text-red h2{
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 126%;
+	color: #000000;
+}
+.main-content-text-red span{
+	color: #EC5863;
+}
+.button-link-red-02{
+	padding: 13px 0 0 38px;
+}
+
+/* experts */
+.block-experts{
+	width: 1049px;
+	height: 700px;
+	margin: 0 auto;
+}
+.experts-image{
+	text-align: center;
+	background: url(./img/Group\ 28.png)  no-repeat center;
+	background-size:contain;
+}
+.experts-content{
+	display: flex;
+	justify-content: space-between;
+}
+.main-content-text-blue span{
+	color: #587EEC;
+}
+.experts-content-image{
+	padding: 90px 0 0 0;
+}
+.footer{
+	width: 1049px;
+	height: 700px;
+	margin: 0 auto;
+	background: url(./img/android.png) 40% 90% no-repeat,url(./img/ios.png) 60% 90.9% no-repeat;
+}
+.footer-text{
+	padding: 40px 0 0 0;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 126%;
+	text-align: center;
+	color: #000000;
+}
+.footer-text span{
+	color: #EC5863;
+}
+.footer-text-02{
+	padding: 20px 0px 0 0px ;
+	font-family: 'Rubik', sans-serif;
+	font-size: 12px;
+	line-height: 138.5%;
+	text-align: center;
+	letter-spacing: 0.08em;
+	color: #616161;
+}
+.footer-content{
+	padding: 66px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+.footer-block{
+	width: 278.17px;
+	height: 276.52px;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+	border-radius: 8px;
+}
+.footer-image{
+	padding: 36px 107px 58px 106px;
+}
+.footer-block h2{
+	text-align: center;
+}
+.footer-block-text{
+	padding: 10px 0 0 0;
+	font-family: Rubik;
+	font-size: 12px;
+	line-height: 138.5%;
+	text-align: center;
+	letter-spacing: 0.08em;
+	color: #616161;
+}
